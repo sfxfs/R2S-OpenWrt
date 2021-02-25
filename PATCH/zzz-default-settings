@@ -51,6 +51,7 @@ echo "log-facility=/dev/null" >> /etc/dnsmasq.conf
 
 # Others
 ln -sf /sbin/ip /usr/bin/ip
+ln -sf /usr/bin/wget /usr/bin/wget-ssl
 opkg flag hold luci-app-firewall
 opkg flag hold firewall
 opkg flag hold dnsmasq-full
