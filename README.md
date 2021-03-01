@@ -5,7 +5,7 @@
 1. 设置主机名为 `NanoPi-R2S`  
 2. 默认 LAN IP： `192.168.1.1`  
 3. 默认用户、密码： `root` `无`  
-4. 插件仅包含： `OpenClash` `SSRPlus` `Samba4网络共享`  
+4. 插件仅包含： `OpenClash` `SSRPlus` `Samba4网络共享` `网易云音乐解锁`  
 5. 重命名 `ShadowSocksR Plus+` 为 `SSRPlus`，并微调其设置首页内容  
 6. 主题仅包含 `luci-theme-argon` 且删除主题底部文字  
 7. 默认关闭 `IPv6`  

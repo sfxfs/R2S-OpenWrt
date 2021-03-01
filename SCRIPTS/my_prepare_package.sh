@@ -76,6 +76,9 @@ wget -qO- $clash_game_url | tar xOvz > package/base-files/files/etc/openclash/co
 wget -qO- $clash_premium_url | gunzip -c > package/base-files/files/etc/openclash/core/clash_tun
 chmod +x package/base-files/files/etc/openclash/core/clash*
 
+# 网易云音乐解锁
+git clone --depth 1 https://github.com/immortalwrt/luci-app-unblockneteasemusic.git package/new/luci-app-unblockneteasemusic
+
 # 移除 LuCI 部分页面
 pushd feeds/luci/modules/luci-mod-system/root/usr/share/luci/menu.d
 rm -fr luci-mod-system.json
